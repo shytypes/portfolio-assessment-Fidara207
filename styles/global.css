@@ -3,8 +3,43 @@
   margin: 0px;
   padding: 0px;
 }
-
+html {
+  margin: 200px;
+  margin-top: 0px;
+  background-color: black;
+}
 /*title text style*/
 /* the font-family 'JetBrains Mono', has been linked
  * and is available for your use
  * */
+header {
+  font-size: larger;
+  margin: 30px;
+}
+img {
+  border-radius: 500px;
+  margin: 30px;
+}
+h1 {
+  font-size: smaller;
+  color: white;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: medium;
+  color: white;
+}
+li {
+  color: #000;
+}
+.box-div {
+  background-color: white;
+  border-radius: 40px;
+  border: 1px solid;
+  border-color: gray;
+  width: fit-content;
+  padding: 15px;
+  font-size: x-small;
+}
