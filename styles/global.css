@@ -4,9 +4,10 @@
   padding: 0px;
 }
 html {
-  margin: 200px;
+  display: flex;
+  justify-content: center;
   margin-top: 0px;
-  background-color: black;
+  background-color: rgb(255, 221, 227);
 }
 /*title text style*/
 /* the font-family 'JetBrains Mono', has been linked
@@ -15,10 +16,7 @@ html {
 header {
   font-size: larger;
   margin: 30px;
-  color: white;
-}
-img {
-  border-radius: 500px;
+  color: black;
 }
 h2 {
   display: flex;
@@ -26,7 +24,7 @@ h2 {
   gap: 75px;
   align-items: center;
   font-size: medium;
-  color: white;
+  color: black;
   margin-top: 30px;
 }
 .box-div {
@@ -40,17 +38,16 @@ p {
   font-size: small;
   justify-content: center;
   margin-top: 5px;
-  color: white;
+  color: black;
 }
 main {
-  color: white;
+  color: black;
 }
 .line {
   border: none;
   height: 2px;
   background-color: gray;
   margin: 5px 0;
-  width: 750px;
 }
 v {
   border-left: 10p solid;
