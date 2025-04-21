@@ -15,31 +15,46 @@ html {
 header {
   font-size: larger;
   margin: 30px;
+  color: white;
 }
 img {
   border-radius: 500px;
-  margin: 30px;
-}
-h1 {
-  font-size: smaller;
-  color: white;
 }
 h2 {
   display: flex;
-  justify-content: center;
+  flex-direction: row;
+  gap: 75px;
   align-items: center;
   font-size: medium;
   color: white;
-}
-li {
-  color: #000;
+  margin-top: 30px;
 }
 .box-div {
-  background-color: white;
-  border-radius: 40px;
-  border: 1px solid;
-  border-color: gray;
+  border-radius: 20px;
+  /* border-color: gray; */
   width: fit-content;
   padding: 15px;
-  font-size: x-small;
+  font-size: small;
+}
+p {
+  font-size: small;
+  justify-content: center;
+  margin-top: 5px;
+  color: white;
+}
+main {
+  color: white;
+}
+.line {
+  border: none;
+  height: 2px;
+  background-color: gray;
+  margin: 5px 0;
+  width: 750px;
+}
+v {
+  border-left: 10p solid;
+  position: absolute;
+  left: 200px;
+  height: 500px;
 }
